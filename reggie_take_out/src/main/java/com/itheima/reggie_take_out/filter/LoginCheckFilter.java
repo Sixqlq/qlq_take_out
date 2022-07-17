@@ -36,7 +36,8 @@ public class LoginCheckFilter implements Filter {
                 "/employee/login",
                 "/employee/logout",
                 "/backend/**",
-                "/front/**"
+                "/front/**",
+                "/common/**"
         };
 
         // 2. 判断本次请求是否需要处理（登录、登出及访问静态资源请求不需要处理，处理的是后端接口数据的请求）
