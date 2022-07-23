@@ -69,15 +69,6 @@
 			<version>1.2.11</version>
 		</dependency>
 
-		<!-- java object layout 可以查看对象内存布局 -->
-		<!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
-		<dependency>
-			<groupId>org.openjdk.jol</groupId>
-			<artifactId>jol-core</artifactId>
-			<version>0.16</version>
-			<scope>provided</scope>
-		</dependency>
-
 		<!-- 阿里云短信服务 -->
 		<dependency>
 			<groupId>com.aliyun</groupId>
